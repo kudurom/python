@@ -7,7 +7,7 @@ config.load_kube_config()
 
 # Set the namespace and pod name for the WordPress site
 namespace = "mwanawevhu-2023"
-pod_name = "mwanawevhu-wordpress-56cd7bcff8-f7fht	"
+pod_name = "mwanawevhu-wordpress-56cd7bcff8-f7fht"
 
 # Create a Kubernetes API client
 api = client.CoreV1Api()
